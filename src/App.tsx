@@ -4,7 +4,6 @@ import { Button } from './components/common/Button/Button';
 
 function App() {
     const [fame, setFame] = useState('');
-    console.log('first');
     return (
         <>
             {fame}
