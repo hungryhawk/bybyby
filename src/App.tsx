@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import './App.scss';
-import { Button } from './components/common/Button';
+import { Avatar } from './components/common/Avatar/Avatar';
+import { Button } from './components/common/Button/Button';
 
 function App() {
     const [fame, setFame] = useState('');
@@ -10,6 +10,7 @@ function App() {
             {fame}
             <div onClick={() => setFame('psha')}>lll</div>
             <Button />
+            <Avatar />
         </>
     );
 }
