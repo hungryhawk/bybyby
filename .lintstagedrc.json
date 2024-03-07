@@ -1,4 +1,4 @@
 {
     "src/*.{ts,tsx,js,jsx}": ["prettier --write", "eslint --fix"],
-    "src/*.scss": ["npm run styles:fix"]
+    "src/*.module.scss": ["npx stylelint --fix"]
 }
