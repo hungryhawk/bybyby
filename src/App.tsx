@@ -3,11 +3,11 @@ import './App.scss';
 import { Button } from './components/common/Button';
 
 function App() {
-    const [name, setName] = useState('');
+    const [fame, setFame] = useState('');
     return (
         <>
-            {name}
-            <div onClick={() => setName('psha')}>lll</div>
+            {fame}
+            <div onClick={() => setFame('psha')}>lll</div>
             <Button />
         </>
     );
